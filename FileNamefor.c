@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
 #include <math.h>
@@ -13,10 +13,10 @@ int main() {
 	b = 1;
 	res = 0;
 	zn = 1;
-	puts("Введите значение N (N<10): ");
+	puts("введите целое число N (N<10): ");
 	scanf("%lf", &N);
 	if (N >= 10 || N <= 0) {
-		printf("\n Неверное N\n");
+		printf("\n Неправильное N\n");
 	}
 	else {
 		for (int i = 1; i <= N; i++) {
@@ -26,5 +26,4 @@ int main() {
 	}
 	printf("Результат выражения %.1lf", res);
 	return 0;
-
 }
